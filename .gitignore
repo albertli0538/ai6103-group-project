@@ -2,3 +2,4 @@
 cityscapesScripts/
 datasets/*
 models/*
+__pycache__/*
