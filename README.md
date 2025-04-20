@@ -77,7 +77,7 @@ All models were evaluated using standard semantic segmentation metrics:
 |-------|----------------|----------|--------|-----------------|------------------|
 | Baseline | 0.7370 | 0.1698 | 0.5227	 | 0.7907 | - |
 | CBAM | 0.7603 | 0.2084 | 0.5526 | 0.7294 | +3.86% |
-| Mish | 0.7614	 | 0.2204 | 0.5544 | 0.7303 | +2.44% |
+| Mish | 0.7614	 | 0.2204 | 0.5544 | 0.7303 | +5.06% |
 | DeepLabV3+ | 0.7332 | 0.1944 | 0.5207 | 0.7881 | +2.46% |
 | Combined | 0.7612 | 0.2295 | 0.5542 | 0.7272 | +5.97% |
 
@@ -111,7 +111,7 @@ While the Combined model offers the best performance, it also has the highest pa
 
 1. **CBAM Attention** improved the model's ability to focus on relevant features through channel and spatial attention mechanisms, providing a 3.86% boost in mean IoU with approximately 2% increase in parameter count (10.15M vs 9.95M baseline).
 
-2. **Mish Activation** delivered enhanced performance on segmentation tasks with a 2.44% improvement in mean IoU, offering better gradient flow during backpropagation while adding some computational complexity.
+2. **Mish Activation** delivered enhanced performance on segmentation tasks with a 5.06% improvement in mean IoU, offering better gradient flow during backpropagation while adding some computational complexity.
 
 3. **DeepLabV3+** architecture showed a 2.46% improvement in mean IoU through its effective multi-scale feature extraction, though with a substantial increase in model size (15.03M parameters).
 
